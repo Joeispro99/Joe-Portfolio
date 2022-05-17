@@ -155,6 +155,7 @@ h3 {
     float:left;
     /* width: calc(100% - 310px); */
 }
+
 /*
 @media only screen and (max-width: 600px) {
     .side-nav {
@@ -181,15 +182,22 @@ h3 {
 */
 
 .social-buttons {
-    height: 32px;
-    width: 32px;
+    height: 16px;
+    width: 16px;
     background-color: white;
     float: left;
-    padding:15px 15px;
-    margin:25px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    margin: 25px;
     border-radius: 100px;
+    display: block;
+    align-items: center;
     text-align: center;
     text-decoration: none;
     font-size: 25px;
-    vertical-align: middle !important;
+}
+
+.social-buttons p {
+    padding-left:20px;
+    padding-bottom: 10px;
 }
