@@ -3,6 +3,7 @@ html,body {
     padding: 0px;
     overflow-x:hidden;
     height: 100%;
+    color:#6c464f
 }
 
 #container{
@@ -62,7 +63,7 @@ h3 {
 .header {
     height: 100%;
     bottom: 0px;
-    background-color: #b6c8ff;
+    background-color: #fcd7ad;
     overflow: auto;
     /* position:fixed; */
 }
@@ -70,7 +71,7 @@ h3 {
 .side-nav {
     width: 250px;
     height: 100%;
-    background-color: #9279ff;
+    background-color: #577399;
     position:fixed;
     top:0;
     left:0;
@@ -124,7 +125,7 @@ h3 {
 }
 
 .nav-links li:hover a {
-    color: #9279ff;
+    color: #577399;
     transition: 0.3s;
 }
 
